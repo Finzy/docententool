@@ -71,6 +71,11 @@ body,html {
 	background-color: lightblue;
 }
 
+#dinfo{
+	margin: 1em 15em;
+	width: 100%;
+}
+
 /* ----------- home/default page ------------ */
 
 #Home {
@@ -121,7 +126,7 @@ body,html {
 }
 
 #login h1 {
-	margin-top: 70px; 
+	margin-top: .5em; 
 	text-align: center;
 }
 
@@ -138,17 +143,76 @@ body,html {
 }
 
 #login .submitB {
-	margin-top: 10px;
+	/*margin-top: 10px;
 	height: 20px;
-	width: 50px;
+	width: 50px;*/
 }
 
 #login button {
-	margin-top: 20px;
+	/*margin-top: 20px;
 	height: 20px;
-	width: 50px;
+	width: 50px;*/
 }
 
+#uName{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 22px;
+	width: 8em;
+	margin: .2em 16.2em;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+
+}
+
+#pword	{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 22px;
+	width: 8em;
+	margin: .2em 16.2em;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+
+}
+
+.dLogin{
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 22px;
+	border-radius: 10px;
+	height: 40px;
+	width: 5em;
+	float: left;
+	padding: .5em 0;
+	padding-bottom: 35px;
+	margin: -4em 3.4em;
+	background-color: #386069;
+	color:#fff;
+}
+
+#dBack{
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 22px;
+	border-radius: 10px;
+	height: 40px;
+	width: 5em;
+	float: left;
+	padding: .5em 0;
+	padding-bottom: 35px;
+	margin: -2em 3.4em;
+	background-color: #386069;
+	color:#fff;	
+}
 /* ----------- profile page ---------------- */
 
 #profile {
@@ -218,7 +282,7 @@ body,html {
 	text-decoration: none;
 	text-align: center;
 }
-
+}
 
 @media screen and (max-width: 900px) {
 	#profile #right {
@@ -409,3 +473,38 @@ body,html {
 	}
 }
 
+/* ----------- nerform page ---------------- */
+
+
+.leerlingContin{
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	padding: 0.5em 0;
+	margin: -2em .6em;
+	background-color: #386069;
+	color:#fff;
+}
+
+#llcode{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 2em;
+	width: 8em;
+	margin: .2em 16.2em;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#llinfo{
+	margin: 1em 16.2em;
+	width: 100%;
+}
