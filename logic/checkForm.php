@@ -28,6 +28,7 @@ $query = "SELECT * FROM codes WHERE `Formpin` = '$pincode' LIMIT 1";
 	if ($count==1 && $Date < $result2['date']) {
 
 		echo $result2['questions'];
+		include('views/answer.html');
 	} else {
 		?>
 			<script>
@@ -36,4 +37,8 @@ $query = "SELECT * FROM codes WHERE `Formpin` = '$pincode' LIMIT 1";
 		<?php
 	}
 
+
+
 ?>
+
+

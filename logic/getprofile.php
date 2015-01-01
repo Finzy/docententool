@@ -13,9 +13,9 @@ $select =  mysql_select_db("tool");
 
 $query = mysql_query("SELECT * FROM users WHERE username='".$_SESSION['username']."'");
 
-while($row = mysql_fetch_assoc($query) )
-{
-    $info = $row['info'];
-}
+// while($row = mysql_fetch_assoc($query) )
+// {
+//     $info = $row['info'];
+// }
 
 ?>
