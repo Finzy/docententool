@@ -340,8 +340,8 @@ body,html {
 
 #newform #right {
 	float: right;
-	margin-top: -230px;
-	margin-right: 20%;
+	margin-top: 0;
+	margin-right: 40%;
 }
 
 #newform #right h2 {
@@ -385,6 +385,11 @@ body,html {
 #newform #right .remove {
 	margin-left: 5px;
 	margin-right: -22px;
+}
+
+#newformButtons{
+	position: relative;
+	right:60px;
 }
 
 @media screen and (max-width: 800px) {

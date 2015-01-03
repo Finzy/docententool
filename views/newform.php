@@ -19,12 +19,13 @@ if (!isset($_COOKIE['loggedin'])) {
 		<h1>Nieuw formulier</h1>
 		<div id="right">
 				<div id="buildyourform">
-					<input class="button" type="checkbox"><input class="field" type="text" name="question" placeholder="vraag"/><br />
+					<input class="field" type="text" name="question" placeholder="vraag"/><br />
 				</div>
-				<input type="button" value="+" class="add" id="add" />	
+				<div id="newformButtons">
 			<a href="#"><button class="goback" type="submit">Maak formulier</button></a><br />
 			</form>
 			<button onclick="window.history.go(-1); return false;">Ga terug</button></a>
+			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="js/addfield.js"></script>
