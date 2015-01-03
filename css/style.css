@@ -316,7 +316,7 @@ body,html {
 }
 
 #newform h1 {
-	color: #f39c12;
+	color: #f000;
 	text-align: center;
 }
 
@@ -354,24 +354,48 @@ body,html {
 }
 
 #newform #right input {
-	padding-left: 2px;
-	margin-left: 15px; 
-	margin-bottom: 10px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 2em;
+	width: 8em;
+	margin: .2em 17%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
 }
 
 #newform #right button {
-	width: 100px;
-	height: 50px;
-	font-size: 12px;
-	float: right;
-	margin-left: 100px;
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 1em;
+	border-radius: 10px;
+	height:50px;
+	width: 160px;
+	float: left;
+	padding: 0.5em 0;
+	margin: -3.5em 20%;
+	background-color: #386069;
+	color:#fff;
 }
 
 #newform #right a button {
-	margin-top: 40px;
-	text-decoration: none;
-	text-align: center;
-	color: #f39c12;
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 1em;
+	border-radius: 10px;
+	height:50px;
+	width: 160px;
+	float: left;
+	padding: 0.5em 0;
+	margin: -6em 20%;
+	background-color: #386069;
+	color:#fff;
+
 }
 
 #newform #right .fieldwrapper {
@@ -512,4 +536,72 @@ body,html {
 #llinfo{
 	margin: 1em 16.2em;
 	width: 100%;
+}
+
+
+/* ----------- form page ---------------- */
+
+#nameID{
+	margin-top: 70px; 
+	text-align: center;
+}
+
+#nameForm{
+	padding: 5px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 1em;
+	width: 8em;
+	margin: -2em 44.5%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#classID{
+	text-align: center;
+}
+
+#classForm{
+	padding: 5px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 1em;
+	width: 8em;
+	margin: -2em 44.5%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#answerID{
+	text-align: center;
+}
+
+#answerForm{
+	padding: 5px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 1em;
+	width: 13em;
+	margin: -2em 41.5%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#sendAnswer{
+	position: relative;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -2.5em 40.2%;
+	background-color: #386069;
+	color:#fff;
 }
