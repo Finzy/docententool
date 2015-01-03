@@ -3,7 +3,7 @@
 $Date = strtotime(' now ');
 
 $name = "root";
-$passworddb = "hc4l";
+$passworddb = "neirlxsb";
 $hostname = "localhost";
 
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");
