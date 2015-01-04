@@ -1,6 +1,13 @@
+
+<!-- vraag output html -->
+
+<div id="questionOutput"> 
+<?php echo $_POST['question']; ?>  
+</div>
+
+<!-- end -->
+
 <?php
-//echo aangevinkte vraag
-echo $_POST['question'] . "<br>";
 
 function Formpin($length = 6) {
     $validCharacters = "234567890abcdefghijklmnpqrstuxyvwzABCDEFGHIJKLMNPQRSTUXYVWZ";
@@ -17,12 +24,21 @@ function Formpin($length = 6) {
 }
 
 $Frmopin = Formpin();
-echo $Frmopin;
+?>
 
+<!-- Code output html -->
+
+<div id="codeOutput">
+<?php echo $Frmopin; ?>
+</div>
+
+<!-- end -->
+
+<?php
 $Date = strtotime(' + 1 week');
 
 $name = "root";
-$passworddb = "neirlxsb";
+$passworddb = "hc4l";
 $hostname = "localhost";
 
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");

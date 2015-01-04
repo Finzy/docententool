@@ -3,7 +3,7 @@
 $Date = strtotime(' now ');
 
 $name = "root";
-$passworddb = "neirlxsb";
+$passworddb = "hc4l";
 $hostname = "localhost";
 
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");
@@ -26,8 +26,10 @@ $query = "SELECT * FROM codes WHERE `Formpin` = '$pincode' LIMIT 1";
 
 	// checking if the right data is selected
 	if ($count==1 && $Date < $result2['date']) {
+		?>
+		<h2 id="answerOutput"><?php echo $result2['questions']; ?></h2>
 
-		echo $result2['questions'];
+		<?php
 		include('views/answer.html');
 	} else {
 		?>

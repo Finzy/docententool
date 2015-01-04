@@ -2,7 +2,7 @@
 
 // Login data to connect to the database
 $name = "root";
-$passworddb = "neirlxsb";
+$passworddb = "hc4l";
 $hostname = "localhost";
 
 // query to connect to the host
@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
 		$_SESSION['username'] = $username;
 		setcookie(loggedin, date("F jS - g:i a"), $seconds);
 		// to select witch page you want to load
-		header("location:?action=profile");
+		header("location:?action=profile&id=1");
 	} else {
 		?>
 			<script>

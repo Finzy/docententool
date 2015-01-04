@@ -215,6 +215,13 @@ body,html {
 }
 /* ----------- profile page ---------------- */
 
+#newFormBut{
+	/*stijl hier dit is de newform van de profile page*/
+}
+#logoutBut{
+	/*dit is de logout button van de profile page*/
+}
+
 #profile {
 	width: 920px;
 	margin: 0 auto;
@@ -604,4 +611,45 @@ body,html {
 	margin: -2.5em 40.2%;
 	background-color: #386069;
 	color:#fff;
+}
+
+#newFormBut{
+	/*stijl hier dit is de newform van de profile page*/
+}
+#logoutBut{
+	/*dit is de logout button van de profile page*/
+}
+
+
+/*stijl voor de output*/
+/*dit is te vinden als je een form hebt aangemaakt*/
+
+
+#questionOutput{
+
+}
+
+#codeOutput{
+
+}
+
+/*de vraag op de ?action=checkform dus de page waar de leerling op komt als hij de code invult*/
+
+#answerOutput{
+
+}
+
+
+/*stijl voor onder newform op profile page*/
+
+#answerUl{
+
+}
+
+#answerLi{
+
+}
+
+.pages{
+
 }
