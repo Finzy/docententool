@@ -615,9 +615,29 @@ body,html {
 
 #newFormBut{
 	/*stijl hier dit is de newform van de profile page*/
+	position: relative;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -2.5em 40.2%;
+	background-color: #386069;
+	color:#fff;
 }
 #logoutBut{
 	/*dit is de logout button van de profile page*/
+	position: relative;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -.7em 40.2%;
+	background-color: #386069;
+	color:#fff;
 }
 
 
@@ -626,28 +646,37 @@ body,html {
 
 
 #questionOutput{
-
+	text-align: center;
+	font-size: 28px;
+	margin-top: 1em;
 }
 
 #codeOutput{
-
+	text-align: center;
+	font-size: 28px;
+	margin-top: 1em;
 }
 
 /*de vraag op de ?action=checkform dus de page waar de leerling op komt als hij de code invult*/
 
 #answerOutput{
-
+	text-align: center;
+	font-size: 28px;
+	margin-top: 1em;
 }
 
 
 /*stijl voor onder newform op profile page*/
 
 #answerUl{
-
+	text-align: center;
+	list-style: none;
+	margin: 12em 30%;
+	overflow: scroll;
 }
 
 #answerLi{
-
+	
 }
 
 .pages{

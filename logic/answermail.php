@@ -3,7 +3,7 @@
 include('../includes/config.inc.php');
 include('../includes/database.inc.php');
 
-$con = mysql_connect("localhost","root","hc4l");
+$con = mysql_connect("localhost","farhatTool","neirlxsb");
 $db_selected = mysql_select_db('toetstool');
 
 $name = $_POST['name'];
