@@ -1,0 +1,730 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+font-family: 'Ubuntu', sans-serif;
+background-color: #C5E5EC;
+overflow: hidden;
+}
+
+.docentlogin{
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	padding: 0.5em 0;
+	margin: 0 10px;
+	background-color: #386069;
+	color:#fff;
+}
+
+.container{
+	width: 100%;
+	height: 40.5em;
+	display: inline-block;
+	text-align: center;
+}
+
+.buttons{
+	font-size: 4em;
+	width: 66.66%;
+	height: 50%;
+	float: left;
+	padding: 5px;
+	display: inline-block;
+	margin: 0 18%;;
+}
+
+.docentButton{
+	border-radius: 10px;
+	width: 45%;
+	float: left;
+	padding: 0.5em 0;
+	margin: 0 10px;
+	background-color: #386069;
+}
+
+.leerlingButton{
+	border-radius: 10px;
+	width: 45%;
+	float: left;
+	padding: 0.5em 0;
+	margin: 0 10px;
+	background-color: #386069;
+}
+
+a {
+	color: #FFF;
+}
+
+#logo{
+	width: 30%;
+}
+
+
+body,html {
+	margin: 0;
+	padding: 0;
+	background-color: lightblue;
+}
+
+#dinfo{
+	width: 100%;
+	text-align: center;
+}
+
+/* ----------- home/default page ------------ */
+
+#Home {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#Home h1 {
+	margin-top: 70px; 
+	text-align: center;
+}
+
+#Home h4 {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#Home button {
+	width: 125px;
+	height: 35px;
+}
+
+#Home a button {
+	/*margin-top: 60px;*/
+	text-decoration: none;
+	text-align: center;
+}
+
+#Home .field {
+	padding-left: 5px;
+	margin-top: 15px;
+	width: 100px;
+	height: 25px;
+}
+
+#Home .submitB {
+	margin-top: 15px;
+	width: 125px;
+	height: 35px;
+}
+
+/* ----------- inlog page ------------------ */
+
+#login {
+	width: 100%;
+	text-align: center;
+}
+
+#login h1 {
+	margin-top: .5em; 
+	text-align: center;
+}
+
+#login .field1 {
+	margin-top: 10px;
+	width: 130px;
+	height: 25px;
+}
+
+#login .field2 {
+	margin-top: 10px;
+	width: 130px;
+	height: 25px;
+}
+
+#login .submitB {
+	/*margin-top: 10px;
+	height: 20px;
+	width: 50px;*/
+}
+
+#login button {
+	/*margin-top: 20px;
+	height: 20px;
+	width: 50px;*/
+}
+
+#uName{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 22px;
+	width: 8em;
+	margin: .2em 16.2em;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+
+}
+
+#pword	{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 22px;
+	width: 8em;
+	margin: .2em 16.2em;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+
+}
+
+.dLogin{
+	position: relative;
+	left: 43%;
+	top:100px;
+	font-size: 22px;
+	border-radius: 10px;
+	height: 40px;
+	width: 5em;
+	float: left;
+	padding: .5em 0;
+	padding-bottom: 35px;
+	margin: -4em 3.4em;
+	background-color: #386069;
+	color:#fff;
+}
+
+#dBack{
+	position: relative;
+	left: 43%;
+	top:100px;
+	font-size: 22px;
+	border-radius: 10px;
+	height: 40px;
+	width: 5em;
+	float: left;
+	padding: .5em 0;
+	padding-bottom: 35px;
+	margin: -2em 3.4em;
+	background-color: #386069;
+	color:#fff;	
+}
+/* ----------- profile page ---------------- */
+
+#newFormBut{
+	/*stijl hier dit is de newform van de profile page*/
+}
+#logoutBut{
+	/*dit is de logout button van de profile page*/
+}
+
+#profile {
+	width: 920px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+#profile #left {
+	width: 300px;
+	margin-right: auto;
+}
+
+#profile img {
+	margin-top: 25px;
+	width: 300px;
+	height: auto;
+}
+
+#profile p {
+	margin-top: 20px;
+	width: 300px;
+	height: auto;
+}
+
+@media screen and (max-width: 900px) {
+	#profile {
+		width: 100%;
+		text-align: center;
+	}
+
+	#profile #left {
+		width: 250px;
+		margin-right: auto;
+	}
+
+	#profile img {
+		margin-top: 25px;
+		width: 250px;
+		height: auto;
+	}
+
+	#profile p {
+		margin-top: 20px;
+		width: 250px;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 530px) {
+
+
+#profile #right {
+	margin-left: auto;
+	margin-right: 15%;
+}
+
+
+#profile #right button {
+	width: 280px;
+	height: 75px;
+}
+
+#profile #right a button {
+	margin-top: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 900px) {
+	#profile #right {
+		padding-top: 40px;
+		width: 250px;
+		margin-right: 8%;
+		margin-left: auto;
+	}
+
+	#profile #right button {
+		width: 180px;
+		height: 50px;
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	#profile #right {
+		width: 180px;
+		margin-top: -290px;
+		margin-left: auto;
+		margin-right: 5%;
+	}
+}
+
+/* ----------- nerform page ---------------- */
+
+#newform {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#newform h1 {
+	color: #f000;
+	text-align: center;
+}
+
+#newform h2 {
+	color: #f39c12;
+	text-align: center;
+}
+
+#newform #left {
+	width: 50%;
+	margin-top: 70px;
+	border-left: 1px solid black;
+	margin-left: 5%;
+}
+
+#newform #left h3 {
+	color: #f39c12;
+	margin-top: -22px;
+	padding-left: 30px;
+}
+
+#newform #right {
+	float: right;
+	margin-top: 0;
+	margin-right: 40%;
+}
+
+#newform #right h2 {
+	margin-top: -10px;
+}
+
+#newform #right form {
+	height: 100%;
+	border-left: 1px solid black;
+}
+
+#newform #right input {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 2em;
+	width: 8em;
+	margin: .2em 17%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#newform #right button {
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 1em;
+	border-radius: 10px;
+	height:50px;
+	width: 160px;
+	float: left;
+	padding: 0.5em 0;
+	margin: -3.5em 20%;
+	background-color: #386069;
+	color:#fff;
+}
+
+#newform #right a button {
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 1em;
+	border-radius: 10px;
+	height:50px;
+	width: 160px;
+	float: left;
+	padding: 0.5em 0;
+	margin: -6em 20%;
+	background-color: #386069;
+	color:#fff;
+
+}
+
+#newform #right .fieldwrapper {
+	margin-right: 0;
+}
+
+#newform #right form .button {
+	padding-left: -5px;
+}
+
+#newform #right .remove {
+	margin-left: 5px;
+	margin-right: -22px;
+}
+
+#newformButtons{
+	position: relative;
+	right:60px;
+}
+
+@media screen and (max-width: 800px) {
+	#newform {
+		width: 700px;
+		margin: 0 auto;
+		margin-right: 7%;
+	}
+
+	#newform h1 {
+		font-size: 26px;
+		text-align: center;
+		margin-left: 75px;
+	}
+
+	#newform h2 {
+		font-size: 18px;
+		text-align: center;
+		margin-left: 55px;
+	}
+
+	#newform #left {
+		width: 30%;
+		margin-left: 25%;
+	}
+
+	#newform #left h3 {
+		font-size: 14px;
+	}
+
+	#newform #right {
+		width: 30%;
+		margin-right: 15%;
+	}
+
+	#newform #right h2 {
+		margin-top: -10px;
+	}
+
+	#newform #right button {
+		width: 100px;
+		height: 50px;
+		float: none;
+		margin-left: 95px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#newform {
+		width: 400px;
+	}
+
+	#newform h1 {
+		font-size: 20px;
+		margin-left: -20px;
+	}
+
+	#newform h2 {
+		font-size: 14px;
+		margin-left: -30px;
+	}
+
+	#newform #left {
+		margin-left: 1%;
+		width: 40%;
+	}
+
+	#newform #right {
+		width: 40%;
+		margin-right: 10%;
+	}
+
+	#newform #right h2 {
+		margin-top: -35px;
+	}
+
+	#newform #right .field {
+		width: 100px;
+	}
+
+	#newform #right button {
+		width: 100px;
+		height: 50px;
+		float: none;
+		margin-left: 30px;
+	}
+}
+
+/* ----------- nerform page ---------------- */
+
+
+.leerlingContin{
+	position: relative;
+	left: 40%;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	padding: 0.5em 0;
+	margin: -2em .6em;
+	background-color: #386069;
+	color:#fff;
+}
+
+#llcode{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 2em;
+	width: 8em;
+	/*margin: .2em 16.2em;*/
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+	display: block;
+	position: relative;
+	left:43%;
+}
+
+#llinfo{
+	text-align: center;
+	width: 100%;
+}
+
+
+/* ----------- form page ---------------- */
+
+#nameID{
+	margin-top: 70px; 
+	text-align: center;
+}
+
+#nameForm{
+	padding: 5px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 1em;
+	width: 8em;
+	margin: -2em 44.5%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#classID{
+	text-align: center;
+}
+
+#classForm{
+	padding: 5px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 1em;
+	width: 8em;
+	margin: -2em 44.5%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#answerID{
+	text-align: center;
+}
+
+#answerForm{
+	padding: 5px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 1em;
+	width: 13em;
+	margin: -2em 41.5%;
+	color: #0000;
+	border: 2px solid #386069;
+	background-color:	#fff;
+	text-align: center;
+}
+
+#sendAnswer{
+	position: relative;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -2.5em 40.2%;
+	background-color: #386069;
+	color:#fff;
+}
+
+#resultBackBut{
+	position: relative;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 10%;
+	float: left;
+	margin: -2.5em 45.2%;
+	background-color: #386069;
+	color:#fff;
+
+}
+
+#newFormBut{
+	/*stijl hier dit is de newform van de profile page*/
+	position: relative;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -2.5em 40.2%;
+	background-color: #386069;
+	color:#fff;
+}
+#resultBut{
+	position: relative;
+	top:160px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -2.5em 40.2%;
+	background-color: #386069;
+	color:#fff;
+}
+#logoutBut{
+	/*dit is de logout button van de profile page*/
+	position: relative;
+	top:160px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -.7em 40.2%;
+	background-color: #386069;
+	color:#fff;
+}
+
+
+/*stijl voor de output*/
+/*dit is te vinden als je een form hebt aangemaakt*/
+#content{
+	overflow: none;
+}
+
+#questionOutput{
+	text-align: center;
+	font-size: 28px;
+	margin-top: 1em;
+}
+
+#codeOutput{
+	text-align: center;
+	font-size: 28px;
+	margin-top: 1em;
+}
+
+/*de vraag op de ?action=checkform dus de page waar de leerling op komt als hij de code invult*/
+
+#answerOutput{
+	text-align: center;
+	font-size: 28px;
+	margin-top: 1em;
+}
+
+
+/*stijl voor onder newform op profile page*/
+
+#answerUl{
+	text-align: center;
+	list-style: none;
+	margin: 5em 30%;
+	overflow: none;
+}
+
+#answerLi{
+	list-style: none;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	
+}
+
+.button{
+	display: block;
+	text-align: center;
+}
+
+.pages{
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+.current{
+	list-style: none;
+}
