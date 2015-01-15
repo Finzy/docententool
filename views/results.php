@@ -19,7 +19,7 @@
 		echo "<ul id='answerUl'>";
 		while($query2=mysql_fetch_array($query))
 		{
-		echo "<li id='answerLi'>"."<p>Naam: ".$query2['name']."<br> Klas: ".$query2['class']."<br> Antwoord: ".$query2['antwoord']."</p></li>";
+		echo "<li id='answerLi'>"."<p>Naam: ".$query2['name']."<br> Klas: ".$query2['class']."<br> Antwoord: ".$query2['antwoord']."</p></li><hr id='resulthr'>";
 		}
 		echo "</ul>";
 		$rows=mysql_num_rows(mysql_query("SELECT name, class, antwoord from answer"));
