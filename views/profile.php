@@ -19,9 +19,11 @@ if (!isset($_COOKIE['loggedin'])) {
 		<div id="right">
 			<h2></h2>
 			<a href="?action=newform"><button id="newFormBut">New form</button></a><br />
+			<a href="?action=results&id=1"><button id="resultBut">Resultaten</button></a><br>
 			<a href="?action=logout"><button id="logoutBut">Logout</button></a>
 		</div>
 
+<<<<<<< HEAD
 <div id="content">
 <?php
 		$query1=mysql_connect("localhost","root","neirlxsb");
@@ -71,6 +73,8 @@ if (!isset($_COOKIE['loggedin'])) {
 		}
 ?>
 		</div>
+=======
+>>>>>>> 1f95f3e8d05a4d54e9e1c25d2a104594103f1db3
 	</div>
 </body>
 </html>

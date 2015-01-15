@@ -37,14 +37,19 @@ $Frmopin = Formpin();
 <?php
 $Date = strtotime(' + 1 week');
 
+<<<<<<< HEAD
 $name = "root";
 $passworddb = "neirlxsb";
+=======
+$name = "docent";
+$passworddb = "docent";
+>>>>>>> 1f95f3e8d05a4d54e9e1c25d2a104594103f1db3
 $hostname = "localhost";
 
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");
 
 // to connect to the database
-$select =  mysql_select_db("toetstool");
+$select =  mysql_select_db("docententool");
 
 $query = "INSERT INTO codes (Formpin, date, questions) VALUES ('".$Frmopin."', '".$Date."', '".$_POST['question']."')";
 
