@@ -37,7 +37,7 @@ $Frmopin = Formpin();
 <?php
 $Date = strtotime(' + 1 week');
 
-$name = "farhatTool";
+$name = "root";
 $passworddb = "neirlxsb";
 $hostname = "localhost";
 

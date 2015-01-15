@@ -2,7 +2,7 @@
 
 $Date = strtotime(' now ');
 
-$name = "farhatTool";
+$name = "root";
 $passworddb = "neirlxsb";
 $hostname = "localhost";
 

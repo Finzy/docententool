@@ -1,7 +1,7 @@
 <?php
 
 // Login data to connect to the database
-$name = "farhatTool";
+$name = "root";
 $passworddb = "neirlxsb";
 $hostname = "localhost";
 

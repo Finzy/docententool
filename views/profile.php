@@ -24,7 +24,7 @@ if (!isset($_COOKIE['loggedin'])) {
 
 <div id="content">
 <?php
-		$query1=mysql_connect("localhost","farhatTool","neirlxsb");
+		$query1=mysql_connect("localhost","root","neirlxsb");
 		mysql_select_db("toetstool",$query1);
 
 		$start=0;
