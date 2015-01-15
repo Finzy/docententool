@@ -72,8 +72,8 @@ body,html {
 }
 
 #dinfo{
-	margin: 1em 15em;
 	width: 100%;
+	text-align: center;
 }
 
 /* ----------- home/default page ------------ */
@@ -184,7 +184,7 @@ body,html {
 
 .dLogin{
 	position: relative;
-	left: 40%;
+	left: 43%;
 	top:100px;
 	font-size: 22px;
 	border-radius: 10px;
@@ -200,7 +200,7 @@ body,html {
 
 #dBack{
 	position: relative;
-	left: 40%;
+	left: 43%;
 	top:100px;
 	font-size: 22px;
 	border-radius: 10px;
@@ -533,15 +533,18 @@ body,html {
 	font-weight: 100;
 	font-size: 2em;
 	width: 8em;
-	margin: .2em 16.2em;
+	/*margin: .2em 16.2em;*/
 	color: #0000;
 	border: 2px solid #386069;
 	background-color:	#fff;
 	text-align: center;
+	display: block;
+	position: relative;
+	left:43%;
 }
 
 #llinfo{
-	margin: 1em 16.2em;
+	text-align: center;
 	width: 100%;
 }
 
@@ -613,6 +616,20 @@ body,html {
 	color:#fff;
 }
 
+#resultBackBut{
+	position: relative;
+	top:100px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 10%;
+	float: left;
+	margin: -2.5em 45.2%;
+	background-color: #386069;
+	color:#fff;
+
+}
+
 #newFormBut{
 	/*stijl hier dit is de newform van de profile page*/
 	position: relative;
@@ -626,10 +643,22 @@ body,html {
 	background-color: #386069;
 	color:#fff;
 }
+#resultBut{
+	position: relative;
+	top:160px;
+	font-size: 2em;
+	border-radius: 10px;
+	height:70px;
+	width: 20%;
+	float: left;
+	margin: -2.5em 40.2%;
+	background-color: #386069;
+	color:#fff;
+}
 #logoutBut{
 	/*dit is de logout button van de profile page*/
 	position: relative;
-	top:100px;
+	top:160px;
 	font-size: 2em;
 	border-radius: 10px;
 	height:70px;
@@ -643,7 +672,9 @@ body,html {
 
 /*stijl voor de output*/
 /*dit is te vinden als je een form hebt aangemaakt*/
-
+#content{
+	overflow: none;
+}
 
 #questionOutput{
 	text-align: center;
@@ -671,14 +702,29 @@ body,html {
 #answerUl{
 	text-align: center;
 	list-style: none;
-	margin: 12em 30%;
-	overflow: scroll;
+	margin: 5em 30%;
+	overflow: none;
 }
 
 #answerLi{
+	list-style: none;
+	text-decoration: none;
+	display: block;
+	text-align: center;
 	
 }
 
-.pages{
+.button{
+	display: block;
+	text-align: center;
+}
 
+.pages{
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+.current{
+	list-style: none;
 }

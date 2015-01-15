@@ -2,14 +2,14 @@
 
 $Date = strtotime(' now ');
 
-$name = "farhatTool";
-$passworddb = "neirlxsb";
+$name = "docent";
+$passworddb = "docent";
 $hostname = "localhost";
 
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");
 
 // to connect to the database
-$select =  mysql_select_db("toetstool");
+$select =  mysql_select_db("docententool");
 
 $pincode = $_POST['Formpin'];
 

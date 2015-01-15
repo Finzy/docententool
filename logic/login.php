@@ -1,15 +1,15 @@
 <?php
 
 // Login data to connect to the database
-$name = "farhatTool";
-$passworddb = "neirlxsb";
+$name = "docent";
+$passworddb = "docent";
 $hostname = "localhost";
 
 // query to connect to the host
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");
 
 // to connect to the database
-$select =  mysql_select_db("toetstool");
+$select =  mysql_select_db("docententool");
 
 if (isset($_POST['submit'])) {
 	//error_reporting(0);

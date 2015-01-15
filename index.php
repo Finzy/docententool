@@ -37,6 +37,9 @@ switch ($action) {
 	case 'logout':
 			include('logic/logout.php');
 		break;
+	case 'results':
+			include('views/results.php');
+		break;
 	case 'form';
 		error_reporting(0);
 		include('logic/form.php');
