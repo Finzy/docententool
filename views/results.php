@@ -1,8 +1,8 @@
 <div id="content">
 <a href="?action=profile"><button id="resultBackBut">Back</button></a><br />
 <?php
-		$query1=mysql_connect("localhost","docent","docent");
-		mysql_select_db("docententool",$query1);
+		$query1=mysql_connect("localhost","root","neirlxsb");
+		mysql_select_db("toetstool",$query1);
 
 		$start=0;
 		$limit=6;

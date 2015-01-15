@@ -4,7 +4,7 @@ include('../includes/config.inc.php');
 include('../includes/database.inc.php');
 
 $con = mysql_connect("localhost","docent","docent");
-$db_selected = mysql_select_db('docententool');
+$db_selected = mysql_select_db('toetstool');
 
 $name = $_POST['name'];
 $class = $_POST['class'];
