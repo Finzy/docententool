@@ -1,8 +1,8 @@
 
 <!-- vraag output html -->
 
-<div id="questionOutput"> 
-<?php echo $_POST['question']; ?>  
+<div id="questionOutput">
+<?php echo $_POST['question']; ?>
 </div>
 
 <!-- end -->
@@ -12,14 +12,14 @@
 function Formpin($length = 6) {
     $validCharacters = "234567890abcdefghijklmnpqrstuxyvwzABCDEFGHIJKLMNPQRSTUXYVWZ";
     $validCharNumber = strlen($validCharacters);
- 
+
     $result = "";
- 
+
     for ($i = 0; $i < $length; $i++) {
         $index = mt_rand(0, $validCharNumber - 1);
         $result .= $validCharacters[$index];
     }
- 
+
     return $result;
 }
 
@@ -38,7 +38,7 @@ $Frmopin = Formpin();
 $Date = strtotime(' + 1 week');
 
 $name = "root";
-$passworddb = "neirlxsb";
+$passworddb = "hc4l";
 $hostname = "localhost";
 
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");
@@ -54,3 +54,5 @@ $query = "INSERT INTO codes (Formpin, date, questions) VALUES ('".$Frmopin."', '
 
 
 ?>
+
+<a href="?action=home"><button id="resultBack">Home</button></a>

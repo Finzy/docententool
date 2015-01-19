@@ -2,7 +2,7 @@
 
 // Login data to connect to the database
 $name = "root";
-$passworddb = "neirlxsb";
+$passworddb = "hc4l";
 $hostname = "localhost";
 
 // query to connect to the host

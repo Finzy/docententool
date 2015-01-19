@@ -1,7 +1,7 @@
 <div id="content">
 <a href="?action=profile"><button class="trans resultBackBut">Back</button></a><br />
 <?php
-		$query1=mysql_connect("localhost","root","neirlxsb");
+		$query1=mysql_connect("localhost","root","hc4l");
 		mysql_select_db("toetstool",$query1);
 
 		$start=0;
@@ -11,7 +11,7 @@
 		$id = false;
 		if(isset($_GET['id']))
 		{
-		$id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_SPECIAL_CHARS); 
+		$id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_SPECIAL_CHARS);
 		$start=($id-1)*$limit;
 		}
 
@@ -30,7 +30,7 @@
 		}
 		if($id!=$total)
 		{
-		echo "<a href='?action=results&id=".($id+1)."' class='button'>>></a>";	
+		echo "<a href='?action=results&id=".($id+1)."' class='button'>>></a>";
 		}
 
 		echo "<ul class='pages'>";
@@ -42,8 +42,8 @@
 		}
 		echo "</ul>";
 
-		if (mysql_num_rows($query) == 0) { 
-   			echo "niks gevonden"; 
+		if (mysql_num_rows($query) == 0) {
+   			echo "niks gevonden";
 		}
 ?>
 		</div>
