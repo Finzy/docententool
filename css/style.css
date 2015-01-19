@@ -2,7 +2,9 @@
 
 body{
 font-family: 'Ubuntu', sans-serif;
-background-color: #C5E5EC;
+/*background-color: #C5E5EC;*/
+background-image: url(http://subtlepatterns.com/patterns/black_thread.png);
+background-repeat: repeat;
 overflow: hidden;
 }
 
@@ -69,7 +71,6 @@ a {
 body,html {
 	margin: 0;
 	padding: 0;
-	background-color: lightblue;
 }
 
 #dinfo{
@@ -502,16 +503,14 @@ body,html {
 
 
 .leerlingContin{
-	position: relative;
-	left: 40%;
 	top:100px;
 	font-size: 2em;
 	border-radius: 10px;
 	height:70px;
 	width: 20%;
-	float: left;
 	padding: 0.5em 0;
-	margin: -2em .6em;
+	display:block;
+	margin: auto;
 	background-color: #386069;
 	color:#fff;
 }
@@ -522,14 +521,11 @@ body,html {
 	font-weight: 100;
 	font-size: 2em;
 	width: 8em;
-	/*margin: .2em 16.2em;*/
-	color: #0000;
+	margin: .2em auto;
 	border: 2px solid #386069;
 	background-color:	#fff;
 	text-align: center;
 	display: block;
-	position: relative;
-	left:43%;
 }
 
 #llinfo{
@@ -547,11 +543,12 @@ body,html {
 
 #nameForm{
 	padding: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-weight: 100;
 	font-size: 1em;
 	width: 8em;
-	margin: -2em 44.5%;
+	display:block;
+	margin: -1em auto;
 	color: #0000;
 	border: 2px solid #386069;
 	background-color:	#fff;
@@ -564,11 +561,12 @@ body,html {
 
 #classForm{
 	padding: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-weight: 100;
 	font-size: 1em;
 	width: 8em;
-	margin: -2em 44.5%;
+	display:block;
+	margin: -1em auto;
 	color: #0000;
 	border: 2px solid #386069;
 	background-color:	#fff;
@@ -581,11 +579,12 @@ body,html {
 
 #answerForm{
 	padding: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-weight: 100;
 	font-size: 1em;
 	width: 13em;
-	margin: -2em 41.5%;
+	display:block;
+	margin: -1em auto;
 	color: #0000;
 	border: 2px solid #386069;
 	background-color:	#fff;
@@ -593,14 +592,13 @@ body,html {
 }
 
 #sendAnswer{
-	position: relative;
 	top:100px;
 	font-size: 2em;
 	border-radius: 10px;
 	height:70px;
 	width: 20%;
-	float: left;
-	margin: -2.5em 40.2%;
+	display:block;
+	margin: .5em auto;
 	background-color: #386069;
 	color:#fff;
 }
@@ -611,9 +609,10 @@ body,html {
 	font-size: 2em;
 	border-radius: 10px;
 	height:70px;
-	width: 10%;
-	float: left;
-	margin: -2.5em 45.2%;
+	width: 150px;
+	display: block;
+	margin: -2.5em auto;
+	margin-left: 45%;
 	background-color: #386069;
 	color:#fff;
 
@@ -691,7 +690,8 @@ body,html {
 #answerUl{
 	text-align: center;
 	list-style: none;
-	margin: 5em 30%;
+	display: block;
+	margin: 12em auto;
 	overflow: none;
 }
 
@@ -716,4 +716,8 @@ body,html {
 
 .current{
 	list-style: none;
+}
+
+#resulthr{
+	width: 25em;
 }
