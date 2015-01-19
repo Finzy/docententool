@@ -3,11 +3,14 @@
 body{
 font-family: 'Ubuntu', sans-serif;
 /*background-color: #C5E5EC;*/
-background-image: url(http://subtlepatterns.com/patterns/black_thread.png);
+background-image: url(http://subtlepatterns.com/patterns/footer_lodyas.png);
 background-repeat: repeat;
 overflow: hidden;
 }
 
+h1{
+	color: #fff;
+}
 .docentlogin{
 	position: relative;
 	left: 40%;
@@ -41,22 +44,28 @@ overflow: hidden;
 }
 
 .docentButton{
-	border-radius: 10px;
 	width: 45%;
 	float: left;
 	padding: 0.5em 0;
 	margin: 0 10px;
-	background-color: #386069;
+	border: 2px solid white;
+	background-color: rgba(127, 140, 141,0.1);
+}
+
+.trans:hover{
+	background-color: rgba(44, 62, 80,0.6);
+    -moz-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 
 .leerlingButton{
-	border-radius: 10px;
 	width: 45%;
 	float: left;
 	padding: 0.5em 0;
 	margin: 0 10px;
-	background-color: #386069;
-}
+	border: 2px solid white;
+	background-color: rgba(127, 140, 141,0.1);}
 
 a {
 	color: #FFF;
