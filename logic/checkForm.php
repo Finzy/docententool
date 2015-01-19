@@ -35,6 +35,7 @@ $query = "SELECT * FROM codes WHERE `Formpin` = '$pincode' LIMIT 1";
 		?>
 			<script>
 				alert('Incorrect code or expired');
+				window.location.replace("?action=leerling");
 			</script>
 		<?php
 	}

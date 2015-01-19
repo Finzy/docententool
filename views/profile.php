@@ -18,9 +18,9 @@ if (!isset($_COOKIE['loggedin'])) {
 		<h1>welkom <?php echo $ses_user; ?></h1>
 		<div id="right">
 			<h2></h2>
-			<a href="?action=newform"><button id="newFormBut">New form</button></a><br />
-			<a href="?action=results&id=1"><button id="resultBut">Resultaten</button></a><br>
-			<a href="?action=logout"><button id="logoutBut">Logout</button></a>
+			<a href="?action=newform"><button class="trans newFormBut">New form</button></a><br />
+			<a href="?action=results&id=1"><button class="trans resultBut">Resultaten</button></a><br>
+			<a href="?action=logout"><button class="trans logoutBut">Logout</button></a>
 		</div>
 
 	</div>

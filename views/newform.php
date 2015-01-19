@@ -22,9 +22,9 @@ if (!isset($_COOKIE['loggedin'])) {
 					<input class="field" type="text" name="question" placeholder="vraag"/><br />
 				</div>
 				<div id="newformButtons">
-			<a href="#"><button class="goback" type="submit">Maak formulier</button></a><br />
+			<a href="#"><button class="trans goback" type="submit">Maak formulier</button></a><br />
 			</form>
-			<button onclick="window.history.go(-1); return false;">Ga terug</button></a>
+			<button class="trans" onclick="window.history.go(-1); return false;">Ga terug</button></a>
 			</div>
 		</div>
 	</div>
