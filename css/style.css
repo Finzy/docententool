@@ -2,7 +2,9 @@
 
 body{
 font-family: 'Ubuntu', sans-serif;
-background-color: #C5E5EC;
+/*background-color: #C5E5EC;*/
+background-image: url(http://subtlepatterns.com/patterns/black_thread.png);
+background-repeat: repeat;
 overflow: hidden;
 }
 
@@ -69,7 +71,6 @@ a {
 body,html {
 	margin: 0;
 	padding: 0;
-	background-color: lightblue;
 }
 
 #dinfo{
