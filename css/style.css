@@ -386,7 +386,7 @@ body,html {
 	width: 160px;
 	float: left;
 	padding: 0.5em 0;
-	margin: -3.5em 20%;
+	margin: -2.5em 20%;
 	border: 2px solid white;
 	background-color: rgba(127, 140, 141,0.1);
 	color:#fff;
@@ -397,7 +397,7 @@ body,html {
 	left: 40%;
 	top:140px;
 	font-size: 1.4em;
-	height:50px;
+	height:80px;
 	width: 160px;
 	float: left;
 	padding: 0.5em 0;
@@ -683,7 +683,7 @@ body,html {
 	color:#fff;
 }
 
-#resultBack{
+.resultBack{
 	position: relative;
 	top:160px;
 	font-size: 2em;

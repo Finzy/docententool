@@ -38,7 +38,7 @@ $Frmopin = Formpin();
 $Date = strtotime(' + 1 week');
 
 $name = "root";
-$passworddb = "hc4l";
+$passworddb = "neirlxsb";
 $hostname = "localhost";
 
 $dbhandle = mysql_connect($hostname, $name, $passworddb) or die ("Could not connect or find database");
@@ -55,4 +55,4 @@ $query = "INSERT INTO codes (Formpin, date, questions) VALUES ('".$Frmopin."', '
 
 ?>
 
-<a href="?action=home"><button id="resultBack">Home</button></a>
+<a href="?action=home"><button class="trans resultBack">Home</button></a>

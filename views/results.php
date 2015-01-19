@@ -1,7 +1,7 @@
 <div id="content">
 <a href="?action=profile"><button class="trans resultBackBut">Back</button></a><br />
 <?php
-		$query1=mysql_connect("localhost","root","hc4l");
+		$query1=mysql_connect("localhost","root","neirlxsb");
 		mysql_select_db("toetstool",$query1);
 
 		$start=0;
