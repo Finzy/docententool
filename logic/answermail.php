@@ -13,6 +13,7 @@ $answer = $_POST['answer'];
 if (isset($_POST['submit'])	AND $name || $class || $answer != ''){
 $query = "INSERT INTO answer (`id`, `name`, `class`, `antwoord`) VALUES
 ('null', '$name', '$class', '$answer')";
+$result = mysql_query($query);
 header('Location: ../');
 }else{
   echo "Iets in niet juist ingevuld";
