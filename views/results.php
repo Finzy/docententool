@@ -24,14 +24,13 @@
 		echo "</ul>";
 		$rows=mysql_num_rows(mysql_query("SELECT name, class, antwoord from answer"));
 		$total=ceil($rows/$limit);
-
 		if($id>1)
 		{
 		echo "<a href='?action=results&id=".($id-1)."' class='button'><<</a>";
 		}
 		if($id!=$total)
 		{
-		echo "<a href='?action=results&id=".($id+1)."' class='button'>>></a>";
+		echo "<a href='?action=results&id=".($id+1)."' class='button'>>></a>";	
 		}
 
 		echo "<ul class='pages'>";
